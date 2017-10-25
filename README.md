@@ -21,7 +21,7 @@ This repository will be used during the Python programming class to use musculos
 - Solve Inverse Kinematics (IK) 
 - Solve Inverse Dynamics (ID)
 
-### Classes
+### Class
 
 First class: install all the program needed (OpenSim, Python ...)
 
