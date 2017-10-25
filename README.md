@@ -24,7 +24,11 @@ This repository will be used during the Python programming class to use musculos
 ### Classes
 
 First class: install all the program needed (OpenSim, Python ...)
+
 Second class: use the Opensim Graphical User Interface (GUI) to launch a model, see the markers data, place virtual markers on the musculoskeletal model
+
 Third class: Scale geometrically the model with Python
+
 Fourth class: Inverse Kinematics (IK) with Python
+
 Fifth class: Inverse Dynamics (ID) with Python
