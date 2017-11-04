@@ -1,6 +1,6 @@
 import opensim as osim
 
-dir_path = 'D:\Google Drive\Share to the world\GitHub\OpenSim_Python'
+dir_path = 'D:\Google Drive\Share to the world\GitHub\OpenSim'
 
 generic_MM_Path = dir_path + '\\FullBodyModel\\Rajagopal2015.osim'                 # Path to the Generic Musculoskeletal Model
 
