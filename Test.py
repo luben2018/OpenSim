@@ -7,4 +7,3 @@ generic_MM_Path = dir_path + '\\FullBodyModel\\Rajagopal2015.osim'              
 # Load the generic musculoskeletal model
 osimModel = osim.Model(generic_MM_Path)
 state = osimModel.initSystem()
-
