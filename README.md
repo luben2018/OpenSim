@@ -7,7 +7,7 @@ Python programming class to use musculoskeletal model through OpenSim
 - Windows 10 preferred (Windows 7 should be fine)
 - OpenSim 3.3 - 64 bits: https://simtk.org/frs/?group_id=91
 - PyCharm community edition: https://www.jetbrains.com/pycharm/download/#section=windows
-- Python 2.7: https://www.python.org/downloads/
+- Python 2.7: https://www.python.org/downloads/release/python-2714/ (Download this file: Windows x86-64 MSI installer)
 - Python package: numpy, pandas, matplotlib
 - How to install python package: https://packaging.python.org/tutorials/installing-packages/
 - How to install the OpenSim package for Python: https://simtk-confluence.stanford.edu/display/OpenSim/Scripting+in+Python
