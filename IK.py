@@ -4,8 +4,6 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
-## Inverse Kinemactics(IK) with python
-
 # DataBase
 scaled_MM_Moved_path = 'FullBodyModel\\SubjectMoved.osim'  # Path to the subject Musculoskeletal Model that will be created
 
@@ -31,7 +29,6 @@ print(markerWeight)
 
 
 ##################################
-
 i = 0
 TRC_file = TRC_files[i]
 
