@@ -26,9 +26,10 @@ print(markerWeight)
 
 # Launch the musculoskeletal model
 ##################################
-
-
+osimModel = osim.Model(scaled_MM_Moved_path)
+state = osimModel.initSystem()
 ##################################
+
 i = 0
 TRC_file = TRC_files[i]
 
@@ -40,9 +41,9 @@ XML_IK_file = 'XML\\' + filename + '_IK.xml'                          # Path to 
 
 # Marker Data
 ##################################
-
-
-
+markerData = osim.MarkerData(TRC_file)
+initial_time = markerData.getStartFrameTime()
+final_time = markerData.getLastFrameTime()
 ##################################
 
 # Set the IK tool
