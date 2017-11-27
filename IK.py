@@ -48,13 +48,13 @@ final_time = markerData.getLastFrameTime()
 
 # Set the IK tool
 ##################################
-
-
-
-
-
-
-
+ikTool = osim.InverseKinematicsTool(XML_generic_IK_path)
+ikTool.setModel(osimModel)
+ikTool.setName(filename + ext)
+ikTool.setMarkerDataFileName(TRC_file)
+ikTool.setStartTime(initial_time)
+ikTool.setEndTime(final_time)
+ikTool.setOutputMotionFileName(MOT_file)
 ##################################
 
 # For loop demo
