@@ -1,6 +1,6 @@
 ## OpenSim
 
-Python programming class to use musculoskeletal model through OpenSim
+Python programming to use the OpenSim-API
 
 ### Dependencies
 
@@ -16,19 +16,6 @@ Python programming class to use musculoskeletal model through OpenSim
 
 This repository will be used during the Python programming class to use musculoskeletal model through OpenSim to:
 
-- Use the OpenSim GUI interface
-- Scale geometrically the musculoskeletal model to match subjects' specific anthropometry 
-- Solve Inverse Kinematics (IK) 
-- Solve Inverse Dynamics (ID)
-
-### Class
-
-First class: install all the program needed (OpenSim, Python ...)
-
-Second class: use the Opensim Graphical User Interface (GUI) to launch a model, see the markers data, place virtual markers on the musculoskeletal model
-
-Third class: Scale geometrically the model with Python
-
-Fourth class: Inverse Kinematics (IK) with Python
-
-Fifth class: Inverse Dynamics (ID) with Python
+- Scale Tool (ST.py)
+- Solve Inverse Kinematics (IK.py) 
+- Solve Inverse Dynamics (ID.py)
