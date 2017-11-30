@@ -1,45 +1,3 @@
-Loaded model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody from file FullBodyModel\SubjectMoved.osim
-Storage: file=MOT\Walk_Mkrs.mot (nr=542 nc=40)
-InverseDynamicsTool Failed: Object: ERR- Could not open file Unassigned. It may not exist or you don't have permission to read it.
-Loaded model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody from file FullBodyModel\SubjectMoved.osim
-Storage: file=MOT\Walk_Mkrs.mot (nr=542 nc=40)
-               MODEL: FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody
-         coordinates: 39
-              forces: 97
-           actuators: 97
-             muscles: 80
-            analyses: 0
-              probes: 0
-              bodies: 23
-              joints: 22
-         constraints: 2
-             markers: 34
-         controllers: 0
-  contact geometries: 0
-misc modelcomponents: 0
-Running tool Walk_Mkrs.
-
-Storage: file=MOT\Walk_Mkrs.mot (nr=542 nc=40)
-Error: failed to construct ExternalLoads from file XML\Walk_Mkrs_External_Load_ID.xml. Please make sure the file exists and that it contains an ExternalLoads object or create a fresh one.
-InverseDynamicsTool Failed: Object: ERR- Could not open file XML\Walk_Mkrs_External_Load_ID.xml. It may not exist or you don't have permission to read it.
-               MODEL: FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody
-         coordinates: 39
-              forces: 97
-           actuators: 97
-             muscles: 80
-            analyses: 0
-              probes: 0
-              bodies: 23
-              joints: 22
-         constraints: 2
-             markers: 34
-         controllers: 0
-  contact geometries: 0
-misc modelcomponents: 0
-Running tool Walk_Mkrs.
-
-Error: failed to construct ExternalLoads from file XML\Walk_Mkrs_External_Load_ID.xml. Please make sure the file exists and that it contains an ExternalLoads object or create a fresh one.
-InverseDynamicsTool Failed: Object: ERR- Could not open file XML\Walk_Mkrs_External_Load_ID.xml. It may not exist or you don't have permission to read it.
 Loaded model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody from file C:\Users\SeriouslyJapan\Desktop\OpenSim-master\FullBodyModel\SubjectMoved.osim
 Storage: file=C:\Users\SeriouslyJapan\Desktop\OpenSim-master\MOT\Walk_Mkrs.mot (nr=542 nc=40)
                MODEL: FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody
@@ -62,32 +20,10 @@ Storage: file=C:\Users\SeriouslyJapan\Desktop\OpenSim-master\MOT\Walk_Mkrs.mot (
 Storage: file=C:\Users\SeriouslyJapan\Desktop\OpenSim-master\PFF_MOT\walk1.mot (nr=5420 nc=8)
 ExternalForce::Force
 Data source being set to Coordinates
-InverseDynamicsTool: 542 time frames in 0.487s
+InverseDynamicsTool: 542 time frames in 0.528s
 
-Loaded model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody from file C:\Users\SeriouslyJapan\Desktop\OpenSim-master\FullBodyModel\SubjectMoved.osim
-Storage: file=C:\Users\SeriouslyJapan\Desktop\OpenSim-master\MOT\Walk_Mkrs.mot (nr=542 nc=40)
-               MODEL: FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody
-         coordinates: 39
-              forces: 97
-           actuators: 97
-             muscles: 80
-            analyses: 0
-              probes: 0
-              bodies: 23
-              joints: 22
-         constraints: 2
-             markers: 34
-         controllers: 0
-  contact geometries: 0
-misc modelcomponents: 0
-Running tool Walk_Mkrs.
-
-Storage: file=C:\Users\SeriouslyJapan\Desktop\OpenSim-master\MOT\Walk_Mkrs.mot (nr=542 nc=40)
-Storage: file=C:\Users\SeriouslyJapan\Desktop\OpenSim-master\PFF_MOT\walk1.mot (nr=5420 nc=8)
-ExternalForce::Force
-Data source being set to Coordinates
-InverseDynamicsTool: 542 time frames in 0.471s
-
+Loaded model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody from file D:\Google Drive\Share to the world\GitHub\OpenSim\FullBodyModel\SubjectMoved.osim
+Loaded model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody from file D:\Google Drive\Share to the world\GitHub\OpenSim\FullBodyModel\SubjectMoved.osim
 Loaded model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody from file FullBodyModel\SubjectMoved.osim
 Loaded marker file TRC\Walk_Mkrs.trc (34 markers, 542 frames)
                MODEL: FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody
@@ -648,5 +584,119 @@ Frame 538 (t=5.38):	total squared error = 0.017159, marker error: RMS=0.022465, 
 Frame 539 (t=5.39):	total squared error = 0.0171476, marker error: RMS=0.0224575, max=0.122694 (CLAV)
 Frame 540 (t=5.4):	total squared error = 0.0171414, marker error: RMS=0.0224535, max=0.122686 (CLAV)
 Frame 541 (t=5.41):	total squared error = 0.0171273, marker error: RMS=0.0224442, max=0.122651 (CLAV)
-InverseKinematicsTool completed 541 frames in 34.842s
+InverseKinematicsTool completed 541 frames in 46.764s
 
+Loaded model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody from file D:\Google Drive\Share to the world\GitHub\OpenSim\FullBodyModel\SubjectMoved.osim
+Storage: file=D:\Google Drive\Share to the world\GitHub\OpenSim\MOT\Walk_Mkrs.mot (nr=542 nc=40)
+               MODEL: FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody
+         coordinates: 39
+              forces: 97
+           actuators: 97
+             muscles: 80
+            analyses: 0
+              probes: 0
+              bodies: 23
+              joints: 22
+         constraints: 2
+             markers: 34
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+Running tool Walk_Mkrs.
+
+Storage: file=D:\Google Drive\Share to the world\GitHub\OpenSim\MOT\Walk_Mkrs.mot (nr=542 nc=40)
+Storage: file=D:\Google Drive\Share to the world\GitHub\OpenSim\PFF_MOT\walk1.mot (nr=5420 nc=8)
+ExternalForce::Force
+Data source being set to Coordinates
+InverseDynamicsTool: 542 time frames in 0.514s
+
+Loaded model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody from file D:\Google Drive\Share to the world\GitHub\OpenSim\\FullBodyModel\Rajagopal2015.osim
+Replaced marker set in model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody
+Loaded marker file D:\Google Drive\Share to the world\GitHub\OpenSim\\TRC\pose.trc (34 markers, 2 frames)
+
+Step 2: Scaling generic model
+Loaded marker file D:\Google Drive\Share to the world\GitHub\OpenSim\\TRC\pose.trc (34 markers, 2 frames)
+Measurement 'pelvis'
+	pair 0 (RASI, LASI): model = 0.256928, experimental = 0.267247
+	overall scale factor = 1.04016
+Measurement 'femur_r'
+	pair 0 (RASI, RKNE): model = 0.50488, experimental = 0.498045
+	overall scale factor = 0.986462
+Measurement 'tibia_r'
+	pair 0 (RKNE, RANK): model = 0.389261, experimental = 0.423187
+	overall scale factor = 1.08715
+Measurement 'patella_r'
+	pair 0 (RASI, RKNE): model = 0.50488, experimental = 0.498045
+	overall scale factor = 0.986462
+Measurement 'talus_r'
+	pair 0 (RTOE, RHEE): model = 0.23487, experimental = 0.213843
+	overall scale factor = 0.910474
+Measurement 'calcn_r'
+	pair 0 (RTOE, RHEE): model = 0.23487, experimental = 0.213843
+	overall scale factor = 0.910474
+Measurement 'toes_r'
+	pair 0 (RTOE, RHEE): model = 0.23487, experimental = 0.213843
+	overall scale factor = 0.910474
+Measurement 'femur_l'
+	pair 0 (LASI, LKNE): model = 0.50488, experimental = 0.499378
+	overall scale factor = 0.989102
+Measurement 'tibia_l'
+	pair 0 (LKNE, LANK): model = 0.389261, experimental = 0.406499
+	overall scale factor = 1.04428
+Measurement 'patella_l'
+	pair 0 (LASI, LKNE): model = 0.50488, experimental = 0.499378
+	overall scale factor = 0.989102
+Measurement 'talus_l'
+	pair 0 (LTOE, LHEE): model = 0.221508, experimental = 0.208208
+	overall scale factor = 0.939956
+Measurement 'calcn_l'
+	pair 0 (LTOE, LHEE): model = 0.221508, experimental = 0.208208
+	overall scale factor = 0.939956
+Measurement 'toes_l'
+	pair 0 (LTOE, LHEE): model = 0.221508, experimental = 0.208208
+	overall scale factor = 0.939956
+Measurement 'torso'
+	pair 0 (RSHO, LSHO): model = 0.26, experimental = 0.350863
+	overall scale factor = 1.34947
+Measurement 'torso'
+	pair 0 (T10, CLAV): model = 0.224327, experimental = 0.231028
+	overall scale factor = 1.02987
+Measurement 'humerus_r'
+	pair 0 (RELB, RSHO): model = 0.343613, experimental = 0.333548
+	overall scale factor = 0.970709
+Measurement 'ulna_r'
+	pair 0 (RELB, RWRB): model = 0.250359, experimental = 0.241994
+	overall scale factor = 0.96659
+Measurement 'radius_r'
+	pair 0 (RELB, RWRA): model = 0.245845, experimental = 0.252832
+	overall scale factor = 1.02842
+Measurement 'hand_r'
+	pair 0 (RFIN, RWRA): model = 0.107531, experimental = 0.0810775
+	overall scale factor = 0.753989
+Measurement 'humerus_l'
+	pair 0 (LELB, LSHO): model = 0.343613, experimental = 0.324784
+	overall scale factor = 0.945203
+Measurement 'ulna_l'
+	pair 0 (LELB, LWRB): model = 0.250359, experimental = 0.248836
+	overall scale factor = 0.99392
+Measurement 'radius_l'
+	pair 0 (LELB, LWRA): model = 0.245845, experimental = 0.258801
+	overall scale factor = 1.0527
+Measurement 'hand_l'
+	pair 0 (LFIN, LWRA): model = 0.10965, experimental = 0.0881234
+	overall scale factor = 0.803677
+Wrote model file D:\Google Drive\Share to the world\GitHub\OpenSim\\FullBodyModel\Subject.osim from model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody
+Wrote scale file D:\Google Drive\Share to the world\GitHub\OpenSim\\XML\scaleFactorSubject.xml for model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody
+Loaded model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody from file D:\Google Drive\Share to the world\GitHub\OpenSim\\FullBodyModel\Subject.osim
+Replaced marker set in model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody
+Loaded marker file D:\Google Drive\Share to the world\GitHub\OpenSim\\TRC\pose.trc (34 markers, 2 frames)
+
+Step 3: Placing markers on model
+Loaded marker file D:\Google Drive\Share to the world\GitHub\OpenSim\\TRC\pose.trc (34 markers, 2 frames)
+Averaged frames from time 0 to 0.01 in D:\Google Drive\Share to the world\GitHub\OpenSim\\TRC\pose.trc (frames 1 to 2)
+Deleted 0 unused markers from model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody
+Frame at (t=0):	total squared error = 0.0875744, marker error: RMS=0.0507515, max=0.194833 (STRN)
+Moved markers in model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody to match locations in marker file D:\Google Drive\Share to the world\GitHub\OpenSim\\TRC\pose.trc
+Wrote model file D:\Google Drive\Share to the world\GitHub\OpenSim\\FullBodyModel\SubjectMoved.osim from model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody
+Wrote marker file D:\Google Drive\Share to the world\GitHub\OpenSim\\XML\markersMoved.xml from model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody
+Loaded model FullBodyModel_MuscleActuatedLowerLimb_TorqueActuatedUpperBody from file D:\Google Drive\Share to the world\GitHub\OpenSim\\FullBodyModel\SubjectMoved.osim

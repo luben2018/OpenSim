@@ -5,7 +5,7 @@ import os
 # # Inverse Dynamics(ID) with python
 
 # DataBase
-dir_path = 'C:\\Users\\SeriouslyJapan\\Desktop\\OpenSim-master\\'
+dir_path = 'D:\\Google Drive\\Share to the world\\GitHub\\OpenSim\\'                                                      # Change the path to the location of you openSim project
 
 scaled_MM_Moved_path = dir_path + 'FullBodyModel\\SubjectMoved.osim'                                                   # Path to the subject Musculoskeletal Model that will be created
 
@@ -19,9 +19,8 @@ PFF_MOT_files = np.array([dir_path + 'PFF_MOT\\walk1.mot', dir_path + 'PFF_MOT\\
 osimModel = osim.Model(scaled_MM_Moved_path)
 state = osimModel.initSystem()
 
-i = 0
-MOT_file = MOT_files[i]
-PFF_MOT_file = PFF_MOT_files[i]
+MOT_file = MOT_files[0]
+PFF_MOT_file = PFF_MOT_files[0]
 
 path, filename = os.path.split(MOT_file)
 filename, ext = os.path.splitext(filename)
@@ -36,13 +35,14 @@ initial_time = motData.getFirstTime()
 final_time = motData.getLastTime()
 
 # ID tool
-####################################################
-
-
-
-
-
-####################################################
+idTool = osim.InverseDynamicsTool(XML_generic_ID_path)
+idTool.setResultsDir(dir_path + '\\STO\\')
+idTool.setName(filename)
+idTool.setModel(osimModel)
+idTool.setCoordinatesFileName(MOT_file)
+idTool.setStartTime(initial_time)
+idTool.setEndTime(final_time)
+idTool.setOutputGenForceFileName(STO_file)
 
 # External Load File
 externalLoads = osim.ExternalLoads(osimModel, XML_generic_External_Load_ID_path)
@@ -51,13 +51,14 @@ externalLoads.setDataFileName(PFF_MOT_file)                                     
 externalLoads.setLowpassCutoffFrequencyForLoadKinematics(4)
 
 # External Force
-####################################################
-
-
-
-
-
-####################################################
+externalForce = externalLoads.get(0)
+externalForce.setName('Force')
+externalForce.setAppliedToBodyName('ground')
+externalForce.setForceExpressedInBodyName('ground')
+externalForce.setPointExpressedInBodyName('ground')
+externalForce.setForceIdentifier('force_v')
+externalForce.setPointIdentifier('force_p')
+externalLoads.printToXML(XML_External_Load_ID_file)  # Create a subject specific external loads xml and print it
 
 # Set the external load file in the ID tool
 idTool.setExternalLoadsFileName(XML_External_Load_ID_file)
