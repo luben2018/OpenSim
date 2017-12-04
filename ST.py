@@ -1,7 +1,7 @@
 import opensim as osim
 import numpy as np
 
-dir_path = 'D:\\Google Drive\\Share to the world\\GitHub\\OpenSim\\'                                                      # Change the path to the location of you openSim project
+dir_path = 'D:\\Google Drive\\Share to the world\\GitHub\\OpenSim'                                                      # Change the path to the location of you openSim project
 
 generic_MM_Path = dir_path + '\\FullBodyModel\\Rajagopal2015.osim'                 # Path to the Generic Musculoskeletal Model
 XML_generic_ST_path = dir_path + '\\XML\\scaleTool.xml'                            # Path to the generic Scale Tool XML file
